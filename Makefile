@@ -7,3 +7,5 @@ upload_translations:
 	crowdin upload sources
 download_translations:
 	crowdin download
+compile_translations:
+	pybabel compile -d app/translations
