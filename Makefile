@@ -2,7 +2,7 @@ PYTHON ?= python3.8
 
 gettext:
 	pybabel extract -F babel.cfg -o app/messages.pot .
-	pybabel update -i messages.pot -d app/translations
+	pybabel update -i app/messages.pot -d app/translations
 upload_translations:
 	crowdin upload sources
 download_translations:
