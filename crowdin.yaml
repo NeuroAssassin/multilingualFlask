@@ -6,4 +6,4 @@ files:
   - source: messages.pot
     translation: translations/%locale%/LC_MESSAGES/messages.po
     translation-replace:
-        -: _
+        "-": _
