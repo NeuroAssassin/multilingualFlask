@@ -39,7 +39,7 @@ jobs:
         git config user.name 'Github'
         git config user.email 'noreply@github.com'
         git add -f app/translations
-        git commit -m "Add compiled translations to staging area"
+        git commit -m "Automated Crowdin downstream"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
