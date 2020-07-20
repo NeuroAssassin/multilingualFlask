@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: dashboardtesting\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-07-20 17:01+0000\n"
-"PO-Revision-Date: 2020-07-20 19:27\n"
+"PO-Revision-Date: 2020-07-20 20:30\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Belle journée à Portland!"
 
 #: app/blueprints/multilingual/routes.py:41
 msgid "The Avengers movie was so cool!"
-msgstr ""
+msgstr "Le film Averngers était tellement cool!"
 
 #: app/blueprints/multilingual/routes.py:44 app/templates/base.html:15
 msgid "Home"
