@@ -5,5 +5,5 @@ preserve_hierarchy: true
 files:
   - source: messages.pot
     translation: translations/%locale%/LC_MESSAGES/messages.po
-    translation-replace:
+    translation_replace:
         "-": _
