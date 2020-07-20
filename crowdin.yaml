@@ -4,4 +4,4 @@ base_path: ./app/
 preserve_hierarchy: true
 files:
   - source: messages.pot
-    translation: translations/**/**/%locale%.po
+    translation: translations/%locale%/LC_MESSAGES/messages.po
