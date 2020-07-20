@@ -31,6 +31,15 @@ jobs:
     - name: Download translations
       run: |
         make download_translations
+    - name: Compile translations
+      run: |
+        make compile_translations
+    - name: Commit compiled translations
+      run: |
+        git config user.name 'Github'
+        git config user.email 'noreply@github.com'
+        git add -f app/translations
+        git commit -m "Add compiled translations to staging area"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
